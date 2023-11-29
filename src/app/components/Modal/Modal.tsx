@@ -55,6 +55,14 @@ const Modal = ({ tasks }: { tasks: Task[] }) => {
       })
     );
     dispatch(closeModalCreateTask());
+    setFormState({
+      id: "",
+      title: "",
+      description: "",
+      date: "",
+      tag: "Important",
+      completed: false,
+    });
   };
   return (
     showModal && (
