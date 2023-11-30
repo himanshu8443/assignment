@@ -42,7 +42,7 @@ const Sort = ({
         className="flex items-center gap-2 bg-white text-black px-5 py-2 rounded-md"
         onChange={(e) => setSortType(e.target.value)}
       >
-        <option value="default" disabled selected hidden>
+        <option value="default" disabled hidden>
           Sort by
         </option>
         <option value="Date asc">Date asc</option>

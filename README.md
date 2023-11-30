@@ -1,6 +1,3 @@
-
-
-
 <br>
 
 <p align='center'>
@@ -12,15 +9,14 @@
 ## Features
 
 - ⚡️ Create, Edit and Delete tasks.
--  Sort
+- Sort
 - 🔍 search
 
 ## Screenshots
+
 ![image](https://github.com/himanshu8443/assignment/assets/99420590/db79c6e0-4ed8-4c73-b64d-3e6138659bab)
 
 ![image](https://github.com/himanshu8443/assignment/assets/99420590/19f46a29-53b9-4884-9b28-9411ba4a1026)
-
-
 
 ## Usage
 

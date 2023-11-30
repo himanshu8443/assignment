@@ -1,0 +1,191 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <nav
+    class=" w-full bg-Primary-900 text-white flex justify-center items-center"
+  >
+    <div
+      class="flex justify-between items-center p-4 max-w-[1100px] w-full"
+    >
+      <div
+        class="w-72"
+      >
+        <div
+          class="flex-1 col-span-3 row-start-2 md:pr-10"
+        >
+          <form
+            autocomplete="off"
+            class=" relative md:max-w-xs w-full"
+          >
+            <label
+              class="sr-only"
+              for="search"
+            />
+            <input
+              class="inputStyles w-full"
+              id="search"
+              placeholder="Search task"
+              type="search"
+            />
+            <svg
+              class="absolute top-3 right-3 text-slate-500 text-3xl"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 428L339.92 303.9a160.48 160.48 0 0030.72-94.58C370.64 120.37 298.27 48 209.32 48S48 120.37 48 209.32s72.37 161.32 161.32 161.32a160.48 160.48 0 0094.58-30.72L428 464zM209.32 319.69a110.38 110.38 0 11110.37-110.37 110.5 110.5 0 01-110.37 110.37z"
+              />
+            </svg>
+          </form>
+        </div>
+      </div>
+      <div
+        class="flex items-center"
+      >
+        <button
+          class="bg-white text-black px-4 py-2 rounded-md  items-center gap-2 hidden md:flex"
+        >
+          <svg
+            class="text-xl"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="Square_Plus"
+            >
+              <g>
+                <path
+                  d="M18.438,20.938H5.563a2.5,2.5,0,0,1-2.5-2.5V5.564a2.5,2.5,0,0,1,2.5-2.5H18.438a2.5,2.5,0,0,1,2.5,2.5V18.438A2.5,2.5,0,0,1,18.438,20.938ZM5.563,4.064a1.5,1.5,0,0,0-1.5,1.5V18.438a1.5,1.5,0,0,0,1.5,1.5H18.438a1.5,1.5,0,0,0,1.5-1.5V5.564a1.5,1.5,0,0,0-1.5-1.5Z"
+                />
+                <path
+                  d="M15,12.5H12.5V15a.5.5,0,0,1-1,0V12.5H9a.5.5,0,0,1,0-1h2.5V9a.5.5,0,0,1,1,0v2.5H15A.5.5,0,0,1,15,12.5Z"
+                />
+              </g>
+            </g>
+          </svg>
+          Add Task
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="flex justify-between items-center"
+  >
+    <h1
+      class="font-medium my-5 text-center sm:text-left sm:my-8 md:text-2xl text-lg dark:text-slate-200 ml-5"
+    >
+      Tasks (
+      0
+      )
+    </h1>
+    <div>
+      <select
+        class="flex items-center gap-2 bg-white text-black px-5 py-2 rounded-md"
+      >
+        <option
+          disabled=""
+          hidden=""
+          value="default"
+        >
+          Sort by
+        </option>
+        <option
+          value="Date asc"
+        >
+          Date asc
+        </option>
+        <option
+          value="Date desc"
+        >
+          Date desc
+        </option>
+        <option
+          value="Title asc"
+        >
+          Title asc
+        </option>
+        <option
+          value="Title desc"
+        >
+          Title desc
+        </option>
+      </select>
+    </div>
+    <div
+      class="flex items-center gap-2 mr-5"
+    >
+      <button
+        class="bg-white text-black px-4 py-2 rounded-md"
+      >
+        <svg
+          class="text-xl"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            height="7"
+            width="7"
+            x="3"
+            y="3"
+          />
+          <rect
+            height="7"
+            width="7"
+            x="14"
+            y="3"
+          />
+          <rect
+            height="7"
+            width="7"
+            x="14"
+            y="14"
+          />
+          <rect
+            height="7"
+            width="7"
+            x="3"
+            y="14"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class=" px-3  w-full"
+  >
+    <ul
+      class="tasksList mt-4 grid gap-2 sm:gap-4 xl:gap-6 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 items-end"
+    >
+      <li>
+        <button
+          class="border-2 border-slate-300
+             text-slate-400 w-full rounded-lg
+              border-dashed transition hover:bg-slate-300
+               hover:text-slate-500
+               dark:border-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-300 h-52 sm:h-64"
+        >
+          Add new task
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
